@@ -14,8 +14,8 @@ namespace Forme
         [STAThread]
         static void Main()
         {
-            FrmPredlaganjeProjekta frm = new FrmPredlaganjeProjekta();
-            frm.ShowDialog();           
+            FrmIzmenaKompanije frmIzmenaKompanije = new FrmIzmenaKompanije();
+            frmIzmenaKompanije.ShowDialog();
         }
     }
 }
